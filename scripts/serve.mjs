@@ -24,4 +24,8 @@ const server=http.createServer((req,res)=>{
   res.writeHead(status,{'Content-Type':types[path.extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});
   if(req.method==='HEAD')res.end();else fs.createReadStream(file).pipe(res);
 });
-server.listen(Number(process.env.PORT)||3000,process.env.HOST||'127.0.0.1',()=>{console.log(`Portfolio ready at http://${process.env.HOST||'127.0.0.1'}:${server.address().port}${base}/`);});
+const args=process.argv.slice(2);
+const flag=(name,fallback)=>{const i=args.indexOf(name);return i>=0?args[i+1]:fallback;};
+const host=flag('--host',process.env.HOST||'127.0.0.1');
+const port=Number(flag('--port',process.env.PORT||3000));
+server.listen(port,host,()=>{console.log(`Portfolio ready at http://${host}:${server.address().port}${base}/`);});

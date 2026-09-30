@@ -17,7 +17,7 @@ for(const file of pages){
  assert.ok(html.includes('lang="en"'));assert.ok(html.includes('name="viewport"'));
  for(const script of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g))JSON.parse(script[1]);
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,`${label}: duplicate ID`);
- for(const img of html.matchAll(/<img\b[^>]*>/g)){assert.ok(/alt="[^"]+"/.test(img[0]),`${label}: image alt`);assert.ok(/width="\d+"/.test(img[0])&&/height="\d+"/.test(img[0]),`${label}: image dimensions`);}
+ for(const img of html.matchAll(/<img\b[^>]*>/g)){assert.ok((/alt="[^"]+"/.test(img[0]) || (/alt=""/.test(img[0]) && /aria-hidden="true"/.test(img[0]))),`${label}: image alt`);assert.ok(/width="\d+"/.test(img[0])&&/height="\d+"/.test(img[0]),`${label}: image dimensions`);}
  for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){
    const raw=m[1].replaceAll('&amp;','&');linkCount++;
    if(/^(https?:|mailto:|data:)/.test(raw))continue;

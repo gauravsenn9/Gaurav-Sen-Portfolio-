@@ -1,6 +1,6 @@
 # Gaurav Sen — Product Lab
 
-A complete product-management portfolio, ready to upload to GitHub and deploy. Dark cyan-accented homepage, searchable project directory, and 14 light editorial case-study pages. Built with static HTML, CSS and JavaScript using a dependency-free Node build.
+A complete product-management portfolio, ready to upload to GitHub and deploy. Light and dark themes, a background-free professional portrait, a searchable project directory, and 14 individual case-study pages. Built with static HTML, CSS and JavaScript using a dependency-free Node build.
 
 ## Start here
 
@@ -9,7 +9,7 @@ A complete product-management portfolio, ready to upload to GitHub and deploy. D
 3. Follow either deployment option below. Vercel is the easiest option for this project.
 4. Check the live homepage, a project page, the resume link and source links on a phone and desktop before sharing it.
 
-The source code is in `src`, `public` and `scripts`. The included `dist` folder is a ready-built local copy. Deployment rebuilds it with the correct production URLs.
+The source code is in `src`, `public` and `scripts`. Deployment generates the `dist` folder with the correct production URLs.
 
 ## Deploy to Vercel
 
@@ -96,7 +96,9 @@ Some homepage wording and brand labels are in `scripts/build.mjs`; changing `sit
 
 Project cards link to `/projects/PROJECT-SLUG/`, which contains that project's full case study. Supporting reports, decks and videos open their original Drive links in a new tab. Keep the slugs stable after launch so shared links continue to work. This version links video files rather than embedding them, and does not add unverified hosted prototype URLs.
 
-Contact uses `mailto:` and opens the visitor's email application. There is no contact-form backend. The latest supplied resume is linked; LinkedIn is omitted because a verified URL was not available.
+The “Let’s talk” buttons open https://topmate.io/gaurav_sen9/. LinkedIn opens https://www.linkedin.com/in/gauravsenn/. The resume opens the supplied Google Drive PDF. The separate email link uses `mailto:`; there is no contact-form backend.
+
+The theme button follows the visitor’s device preference initially and remembers their light/dark selection. Styling is in `public/assets/themes.css`, behavior in `public/assets/theme.js`, and the transparent portrait is `public/assets/gaurav-portrait.webp`. Sun and moon icons are from Bootstrap Icons; their MIT license is included in `public/assets/ICON_LICENSE.txt`.
 
 ## SEO and accessibility
 
@@ -110,7 +112,7 @@ Set your real `SITE_URL` before promoting the site. After launch, verify the sit
 - Course exercises, independent research, prototype demonstrations and proposed targets are labeled. Targets are not presented as shipped business results. Team work is credited where applicable.
 - Brand names identify the products studied and do not imply employment or endorsement. Source-derived screenshots are included for relevant projects; confirm your right to publish supplied material.
 - Supporting Drive files were accessible in the connected account, and project files had anyone-with-link sharing when checked. External access can change; logged-out visitor access was not independently tested in a browser.
-- Automated checks passed for 17 HTML files, 523 local references, all 14 case studies, source mappings, unique metadata and parseable structured data. Three deployment tests passed for root hosting, GitHub repository subpaths and noindex previews.
-- Browser-level visual QA has not been completed. Before sharing the production URL, check the mobile menu, project search/filters, document links, keyboard navigation and layout at phone, tablet and desktop widths.
+- Automated checks passed for 17 HTML files, 625 local references, all 14 case studies, source mappings, unique metadata and parseable structured data. Three deployment tests passed for root hosting, GitHub repository subpaths and noindex previews.
+- Browser checks covered desktop light/dark rendering, persistent theme selection, mobile navigation, and phone/tablet layouts without horizontal overflow. After deployment, verify external document links and project filters on the live domain.
 
 This download is complete source code and deployment configuration. It has not been uploaded to your GitHub account or published to a live domain.
