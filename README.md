@@ -2,6 +2,10 @@
 
 A complete product-management portfolio, ready to upload to GitHub and deploy. Light and dark themes, a background-free professional portrait, a searchable project directory, and 14 individual case-study pages. Built with static HTML, CSS and JavaScript using a dependency-free Node build.
 
+## Updating your existing site
+
+Start with `UPDATE_INSTRUCTIONS.md` for a browser-only upload to your existing GitHub repository and Vercel project. This update adds native CSS/JavaScript motion and an expandable homepage collection, without paid services or new runtime packages.
+
 ## Start here
 
 1. Extract the ZIP. Open the `gaurav-portfolio` folder.
@@ -112,7 +116,7 @@ Set your real `SITE_URL` before promoting the site. After launch, verify the sit
 - Course exercises, independent research, prototype demonstrations and proposed targets are labeled. Targets are not presented as shipped business results. Team work is credited where applicable.
 - Brand names identify the products studied and do not imply employment or endorsement. Source-derived screenshots are included for relevant projects; confirm your right to publish supplied material.
 - Supporting Drive files were accessible in the connected account, and project files had anyone-with-link sharing when checked. External access can change; logged-out visitor access was not independently tested in a browser.
-- Automated checks passed for 17 HTML files, 625 local references, all 14 case studies, source mappings, unique metadata and parseable structured data. Three deployment tests passed for root hosting, GitHub repository subpaths and noindex previews.
+- Automated checks passed for 17 HTML files, 649 local references, all 14 case studies, source mappings, unique metadata and parseable structured data. Three deployment tests passed for root hosting, GitHub repository subpaths and noindex previews.
 - Browser checks covered desktop light/dark rendering, persistent theme selection, mobile navigation, and phone/tablet layouts without horizontal overflow. After deployment, verify external document links and project filters on the live domain.
 
 This download is complete source code and deployment configuration. It has not been uploaded to your GitHub account or published to a live domain.

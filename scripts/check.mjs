@@ -8,7 +8,7 @@ const config=JSON.parse(fs.readFileSync(path.join(dist,'build-info.json')));
 const projects=JSON.parse(fs.readFileSync(path.join(root,'src/projects.json')));
 const files=[];function walk(dir){for(const f of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,f.name);if(f.isDirectory())walk(p);else files.push(p);}}walk(dist);
 const pages=files.filter(p=>p.endsWith('.html'));const titles=new Set(),descriptions=new Set();let linkCount=0;
-assert.equal(projects.length,14);assert.equal(new Set(projects.map(p=>p.slug)).size,14);assert.equal(pages.length,17);
+assert.equal(projects.length,15);assert.equal(new Set(projects.map(p=>p.slug)).size,projects.length);assert.equal(pages.length,projects.length+3);
 for(const file of pages){
  const html=fs.readFileSync(file,'utf8');const label=path.relative(dist,file);
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,`${label}: exactly one H1`);
@@ -28,7 +28,7 @@ for(const file of pages){
  if(config.canonicalOrigin && !file.endsWith('404.html'))assert.ok(html.includes('rel="canonical"'),`${label}: canonical`);
  assert.ok(!/YOUR_NAME|lorem ipsum|TODO|example\.com/i.test(html),`${label}: placeholder content`);
 }
-const total=projects.reduce((n,p)=>n+p.resources.length,0);assert.equal(total,64);
+const total=projects.reduce((n,p)=>n+p.resources.length,0);assert.equal(total,67);
 for(const p of projects){assert.ok(p.publicResources.some(r=>r.primary));for(const r of p.resources){const u=new URL(r.url);assert.ok(['drive.google.com','docs.google.com'].includes(u.hostname));}assert.equal(p.sections.length,8);}
-if(config.canonicalOrigin){const map=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');assert.equal((map.match(/<loc>/g)||[]).length,16);assert.ok(!map.includes('/404'));}
-console.log(`PASS: ${pages.length} HTML files, ${linkCount} references, 14 complete case studies, 64 source mappings, unique SEO metadata and valid structured data.`);
+if(config.canonicalOrigin){const map=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');assert.equal((map.match(/<loc>/g)||[]).length,projects.length+2);assert.ok(!map.includes('/404'));}
+console.log(`PASS: ${pages.length} HTML files, ${linkCount} references, ${projects.length} complete case studies, ${total} source mappings, unique SEO metadata and valid structured data.`);

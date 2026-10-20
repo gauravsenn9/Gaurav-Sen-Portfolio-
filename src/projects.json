@@ -8,12 +8,12 @@
       "AI workflows",
       "Prototyping"
     ],
-    "status": "Independent capstone · prototype",
+    "status": "Independent capstone \u00b7 prototype",
     "title": "From meeting notes to commitments that close.",
     "summary": "Designing a trusted follow-through layer for Fireflies, built around confirmed ownership and timely updates.",
     "accent": "#bba6ff",
-    "image": "fireflies.webp",
-    "caption": "Commitment Checkpoint — a page from my capstone leadership deck.",
+    "image": "thumb-fireflies-commitloop.webp",
+    "caption": "Fireflies CommitLoop \u2014 project cover artwork",
     "featured": true,
     "year": "2026",
     "role": "Research, problem framing, prioritization and prototype design",
@@ -36,7 +36,7 @@
     "sections": [
       [
         "problem",
-        "The summary is finished. The work isn’t.",
+        "The summary is finished. The work isn\u2019t.",
         "An action item can be captured correctly and still go nowhere. Ownership changes, priorities shift, and the meeting record stops reflecting reality. I explored this gap between recording a commitment and reaching an explicit outcome."
       ],
       [
@@ -194,8 +194,8 @@
       }
     ],
     "updated": "2026-09-29",
-    "imageWidth": 1249,
-    "imageHeight": 702
+    "imageWidth": 1672,
+    "imageHeight": 941
   },
   {
     "slug": "workradar",
@@ -206,16 +206,16 @@
       "AI prioritization",
       "Workflow design"
     ],
-    "status": "Course project · mock-data MVP",
+    "status": "Course project \u00b7 mock-data MVP",
     "title": "Less status hunting. Earlier intervention.",
-    "summary": "An AI daily brief that helps delivery managers see where their attention is needed—and why.",
+    "summary": "An AI daily brief that helps delivery managers see where their attention is needed\u2014and why.",
     "accent": "#77d9ee",
-    "image": "workradar.webp",
-    "caption": "WorkRadar dashboard from the project files. The MVP uses mock data.",
+    "image": "thumb-workradar.webp",
+    "caption": "WorkRadar \u2014 project cover artwork",
     "featured": true,
     "year": "2026",
     "role": "Product requirements, workflow and interface design",
-    "question": "Which blocker needs a manager’s attention today?",
+    "question": "Which blocker needs a manager\u2019s attention today?",
     "decision": "Rank by the need for intervention, with evidence behind every claim.",
     "facts": [
       [
@@ -255,7 +255,7 @@
       [
         "solution",
         "One brief, then an action",
-        "The design groups information into blocked work, items needing attention, top work and yesterday’s changes. Managers can inspect the evidence and assign, complete or snooze an item. Team members have a transparency view and a way to dispute an incorrect inference."
+        "The design groups information into blocked work, items needing attention, top work and yesterday\u2019s changes. Managers can inspect the evidence and assign, complete or snooze an item. Team members have a transparency view and a way to dispute an incorrect inference."
       ],
       [
         "tradeoffs",
@@ -270,7 +270,7 @@
       [
         "learning",
         "Prove the signal before adding integrations",
-        "The next useful test is to compare the brief with managers’ actual intervention decisions and examine false positives. More connected data will not rescue a ranking that people cannot trust."
+        "The next useful test is to compare the brief with managers\u2019 actual intervention decisions and examine false positives. More connected data will not rescue a ranking that people cannot trust."
       ]
     ],
     "resources": [
@@ -374,8 +374,8 @@
       }
     ],
     "updated": "2026-09-29",
-    "imageWidth": 1259,
-    "imageHeight": 903
+    "imageWidth": 1672,
+    "imageHeight": 941
   },
   {
     "slug": "sahi",
@@ -386,12 +386,12 @@
       "Product design",
       "Prototype"
     ],
-    "status": "Course project · interactive prototype",
+    "status": "Course project \u00b7 interactive prototype",
     "title": "Make the assumptions behind a number visible.",
     "summary": "An investment-projection concept that reveals the gap between a headline return and what an investor may actually experience.",
     "accent": "#c0a2fb",
-    "image": "sahi.webp",
-    "caption": "SAHI’s reality ladder, from the product walkthrough. Figures are illustrative prototype content.",
+    "image": "thumb-sahi.webp",
+    "caption": "SAHI \u2014 project cover artwork",
     "featured": true,
     "year": "2026",
     "role": "Product specification and prototype development",
@@ -435,12 +435,12 @@
       [
         "solution",
         "A six-step guided experience",
-        "The flow covers monthly contributions and step-up, scenario selection, invested amount, a reality ladder, category comparison and a downloadable summary. The companion is designed around explaining the user’s computed numbers rather than recommending securities."
+        "The flow covers monthly contributions and step-up, scenario selection, invested amount, a reality ladder, category comparison and a downloadable summary. The companion is designed around explaining the user\u2019s computed numbers rather than recommending securities."
       ],
       [
         "tradeoffs",
         "An honest prototype has limits",
-        "More explanation can increase friction. The design uses progressive disclosure to preserve clarity. Historical scenarios do not predict future returns, and the prototype’s financial inputs would need specialist review before any production use."
+        "More explanation can increase friction. The design uses progressive disclosure to preserve clarity. Historical scenarios do not predict future returns, and the prototype\u2019s financial inputs would need specialist review before any production use."
       ],
       [
         "measurement",
@@ -542,8 +542,8 @@
       }
     ],
     "updated": "2026-09-29",
-    "imageWidth": 1249,
-    "imageHeight": 702
+    "imageWidth": 1672,
+    "imageHeight": 941
   },
   {
     "slug": "zepto-aov",
@@ -558,12 +558,12 @@
     "title": "Grow the basket by completing the mission.",
     "summary": "A growth proposal that connects relevant basket additions to the job a shopper came to get done.",
     "accent": "#e8b7e8",
-    "image": "zepto.webp",
-    "caption": "Three proposed interventions from the Zepto case-study deck.",
+    "image": "thumb-zepto-aov.webp",
+    "caption": "Zepto \u2014 project cover artwork",
     "featured": true,
     "year": "2026",
     "role": "Secondary research, segmentation and growth prioritization",
-    "question": "What did the shopper mean to complete—not just buy?",
+    "question": "What did the shopper mean to complete\u2014not just buy?",
     "decision": "Make basket growth a result of relevance, rather than more persuasion.",
     "facts": [
       [
@@ -593,7 +593,7 @@
       [
         "evidence",
         "What the analysis can and cannot say",
-        "This was a one-day secondary-research exercise without primary interviews or access to Zepto’s internal analytics. Segmentation, RICE inputs and commercial estimates are assumptions to validate, not proprietary company findings."
+        "This was a one-day secondary-research exercise without primary interviews or access to Zepto\u2019s internal analytics. Segmentation, RICE inputs and commercial estimates are assumptions to validate, not proprietary company findings."
       ],
       [
         "decision",
@@ -674,12 +674,12 @@
       }
     ],
     "updated": "2026-09-29",
-    "imageWidth": 1249,
-    "imageHeight": 702
+    "imageWidth": 1672,
+    "imageHeight": 941
   },
   {
     "slug": "uber-pickups",
-    "name": "Uber · Smarter Pickups",
+    "name": "Uber \u00b7 Smarter Pickups",
     "category": "Research & UX",
     "tags": [
       "User research",
@@ -692,7 +692,7 @@
     "accent": "#a3d4ef",
     "year": "2026",
     "role": "Market research, interviews, synthesis and concept design",
-    "question": "Is this a navigation problem—or a shared-understanding problem?",
+    "question": "Is this a navigation problem\u2014or a shared-understanding problem?",
     "decision": "Help the rider and driver converge on one named point.",
     "facts": [
       [
@@ -711,7 +711,7 @@
     "sections": [
       [
         "problem",
-        "The pin isn’t the whole pickup",
+        "The pin isn\u2019t the whole pickup",
         "At a mall or a complex venue, the rider and driver can both have coordinates and still mean different entrances. A phone call becomes the workaround for aligning their understanding."
       ],
       [
@@ -802,7 +802,11 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-uber-pickups.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Uber \u00b7 Smarter Pickups \u2014 project cover artwork"
   },
   {
     "slug": "loop-work",
@@ -814,12 +818,12 @@
       "Roadmapping"
     ],
     "status": "Course strategy case study",
-    "title": "Make day-one readiness someone’s clear responsibility.",
+    "title": "Make day-one readiness someone\u2019s clear responsibility.",
     "summary": "A strategy for an onboarding and IT-access platform serving companies in the UAE and wider Gulf.",
     "accent": "#b9d5b9",
     "year": "2026",
     "role": "Customer targeting, positioning and product strategy",
-    "question": "Who holds the complete picture of a new hire’s readiness?",
+    "question": "Who holds the complete picture of a new hire\u2019s readiness?",
     "decision": "Coordinate across existing systems instead of replacing every system.",
     "facts": [
       [
@@ -849,7 +853,7 @@
       [
         "evidence",
         "A defined starting customer",
-        "The proposal focuses on UAE companies with 200–1,500 employees and complex onboarding across entities. This is a strategic target segment, not a claim about an existing customer base or proven product-market fit."
+        "The proposal focuses on UAE companies with 200\u20131,500 employees and complex onboarding across entities. This is a strategic target segment, not a claim about an existing customer base or proven product-market fit."
       ],
       [
         "decision",
@@ -929,7 +933,11 @@
         "type": "Slides"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-loop-work.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Loop Work \u2014 project cover artwork"
   },
   {
     "slug": "competitor-news-digest",
@@ -940,7 +948,7 @@
       "LLM workflow",
       "Competitive intelligence"
     ],
-    "status": "Built automation · course project",
+    "status": "Built automation \u00b7 course project",
     "title": "Turn a morning news search into a useful brief.",
     "summary": "An n8n workflow that filters competitor news, summarises relevant stories and delivers a structured digest.",
     "accent": "#f2c48b",
@@ -965,7 +973,7 @@
     "sections": [
       [
         "problem",
-        "The information is available. Attention isn’t.",
+        "The information is available. Attention isn\u2019t.",
         "Checking several competitors every morning is repetitive and easy to postpone. The challenge was to turn public news into a consistent brief with a useful signal-to-noise ratio."
       ],
       [
@@ -996,7 +1004,7 @@
       [
         "measurement",
         "Judge usefulness as well as runtime",
-        "The demonstration establishes that the workflow can run. A production evaluation would also examine summary fidelity, missed important stories, duplicates and whether the brief changes a PM’s decisions."
+        "The demonstration establishes that the workflow can run. A production evaluation would also examine summary fidelity, missed important stories, duplicates and whether the brief changes a PM\u2019s decisions."
       ],
       [
         "learning",
@@ -1050,7 +1058,11 @@
         "type": "Image"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-competitor-news-digest.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Competitor News Digest \u2014 project cover artwork"
   },
   {
     "slug": "personalized-learning",
@@ -1097,7 +1109,7 @@
       [
         "evidence",
         "Benchmarks are not internal baselines",
-        "The analysis uses external research and benchmarked assumptions. It distinguishes learners’ intentions and readiness from simple browsing activity. The source targets should be treated as planning inputs rather than observed platform results."
+        "The analysis uses external research and benchmarked assumptions. It distinguishes learners\u2019 intentions and readiness from simple browsing activity. The source targets should be treated as planning inputs rather than observed platform results."
       ],
       [
         "decision",
@@ -1122,7 +1134,7 @@
       [
         "learning",
         "A recommender cannot solve every dropout cause",
-        "Course quality, pricing, accountability and personal circumstances remain outside a ranking system’s scope. Defining those boundaries makes the product claim more useful and testable."
+        "Course quality, pricing, accountability and personal circumstances remain outside a ranking system\u2019s scope. Defining those boundaries makes the product claim more useful and testable."
       ]
     ],
     "resources": [
@@ -1165,7 +1177,11 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-personalized-learning.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Personalized Learning \u2014 project cover artwork"
   },
   {
     "slug": "zomato-retention",
@@ -1177,13 +1193,13 @@
       "Retention"
     ],
     "status": "Independent course case study",
-    "title": "Find the reason a diner does—or doesn’t—come back.",
+    "title": "Find the reason a diner does\u2014or doesn\u2019t\u2014come back.",
     "summary": "A discovery-to-delivery analysis connecting funnel friction to different ordering needs.",
     "accent": "#edaaa8",
     "year": "2026",
     "role": "Journey analysis, cohort framing and metrics",
     "question": "Which part of the ordering journey makes repeat use less likely?",
-    "decision": "Connect funnel stages to the customer’s occasion and constraints.",
+    "decision": "Connect funnel stages to the customer\u2019s occasion and constraints.",
     "facts": [
       [
         "3",
@@ -1217,7 +1233,7 @@
       [
         "decision",
         "Diagnose friction before adding acquisition",
-        "The case prioritises understanding why discovery and ordering fail to match a user’s situation. A retention solution needs to solve a recurring need rather than simply add another promotion."
+        "The case prioritises understanding why discovery and ordering fail to match a user\u2019s situation. A retention solution needs to solve a recurring need rather than simply add another promotion."
       ],
       [
         "solution",
@@ -1292,7 +1308,11 @@
         "type": "Slides"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-zomato-retention.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Zomato \u2014 project cover artwork"
   },
   {
     "slug": "talabat-ux",
@@ -1407,7 +1427,11 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-talabat-ux.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Talabat \u2014 project cover artwork"
   },
   {
     "slug": "nykaa-ux",
@@ -1443,7 +1467,7 @@
     "sections": [
       [
         "problem",
-        "A product listing doesn’t answer every question",
+        "A product listing doesn\u2019t answer every question",
         "Shoppers need to know whether a product suits them, whether a gift will feel appropriate, and when an order will arrive. Information can be present but hard to find at the decision point."
       ],
       [
@@ -1479,7 +1503,7 @@
       [
         "learning",
         "My own use case was too narrow",
-        "The user conversations exposed friction I had learned to ignore. That changed what deserved attention and reinforced the need to investigate beyond the researcher’s own shopping task."
+        "The user conversations exposed friction I had learned to ignore. That changed what deserved attention and reinforced the need to investigate beyond the researcher\u2019s own shopping task."
       ]
     ],
     "resources": [
@@ -1522,7 +1546,11 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-nykaa-ux.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "Nykaa \u2014 project cover artwork"
   },
   {
     "slug": "x-growth",
@@ -1569,7 +1597,7 @@
       [
         "evidence",
         "Observed sessions with a limited scope",
-        "The work covers discovery, sign-up and onboarding on day one, then return, engagement and monetisation exposure on day two. It is a bounded research exercise rather than access to X’s internal funnel data."
+        "The work covers discovery, sign-up and onboarding on day one, then return, engagement and monetisation exposure on day two. It is a bounded research exercise rather than access to X\u2019s internal funnel data."
       ],
       [
         "decision",
@@ -1625,7 +1653,11 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-x-growth.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "X / Twitter \u2014 project cover artwork"
   },
   {
     "slug": "vitafit",
@@ -1692,7 +1724,7 @@
       [
         "measurement",
         "A hypothesis, not a result",
-        "The PRD proposes lifting day-30 retention by 15 percentage points, from about 32% to 47% or above. This is a target for an A/B rollout, paired with participation, streak survival and notification guardrails—not an achieved improvement."
+        "The PRD proposes lifting day-30 retention by 15 percentage points, from about 32% to 47% or above. This is a target for an A/B rollout, paired with participation, streak survival and notification guardrails\u2014not an achieved improvement."
       ],
       [
         "learning",
@@ -1752,7 +1784,11 @@
         "type": "Slides"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-vitafit.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "VitaFit \u2014 project cover artwork"
   },
   {
     "slug": "gedt-expansion",
@@ -1765,7 +1801,7 @@
     ],
     "status": "Collaborative business capstone",
     "title": "Choose an expansion model that fits the market.",
-    "summary": "A team proposal examining how GEDT’s entrepreneurship programmes could scale into comparable economies.",
+    "summary": "A team proposal examining how GEDT\u2019s entrepreneurship programmes could scale into comparable economies.",
     "accent": "#d7c18d",
     "year": "2024",
     "role": "Contributor to the six-person capstone team",
@@ -1789,7 +1825,7 @@
       [
         "problem",
         "A successful model needs a local fit",
-        "The project explores how GEDT’s innovation and entrepreneurship programmes could extend beyond Guyana. Replication needs to account for different institutions, capabilities and technology readiness."
+        "The project explores how GEDT\u2019s innovation and entrepreneurship programmes could extend beyond Guyana. Replication needs to account for different institutions, capabilities and technology readiness."
       ],
       [
         "contribution",
@@ -1843,6 +1879,129 @@
         "type": "PDF"
       }
     ],
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "image": "thumb-gedt-expansion.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "GEDT \u2014 project cover artwork"
+  },
+  {
+    "slug": "whatsapp-directory",
+    "name": "WhatsApp Community Directory",
+    "category": "User Research",
+    "tags": [
+      "Local discovery",
+      "Community trust",
+      "Product discovery"
+    ],
+    "status": "Independent research and product concept",
+    "title": "Keep trusted recommendations within reach.",
+    "summary": "A community directory concept that helps residents retrieve local service recommendations without searching long WhatsApp conversations.",
+    "accent": "#25d366",
+    "year": "2026",
+    "role": "Market research, user research synthesis and concept exploration",
+    "question": "How can neighbours find trusted service contacts after the conversation moves on?",
+    "decision": "Structure community recommendations into an opt-in directory before expanding into bookings or payments.",
+    "facts": [
+      [
+        "3",
+        "research documents"
+      ],
+      [
+        "Discovery",
+        "project stage"
+      ],
+      [
+        "Opt-in",
+        "directory concept"
+      ]
+    ],
+    "sections": [
+      [
+        "problem",
+        "Good recommendations disappear in the chat.",
+        "Residents repeatedly ask for local service contacts because earlier recommendations are buried in long conversations. Finding a number also leaves questions about who recommended the vendor and whether the information is current."
+      ],
+      [
+        "contribution",
+        "Connecting research to a product direction",
+        "The project brings together market research, a user survey and an interview synthesis to explore local service discovery within community WhatsApp groups."
+      ],
+      [
+        "evidence",
+        "Retrieval is a recurring frustration",
+        "The research synthesis identifies scrolling through messages, repeated requests and reliance on familiar neighbours as recurring themes. Preferences for the interface were divided, so a directory tab remains a hypothesis to test rather than a validated winner."
+      ],
+      [
+        "decision",
+        "Make recommendations retrievable",
+        "The proposed direction is a lightweight community directory with structured categories and recommender context. It addresses retrieval before attempting to become a full service marketplace."
+      ],
+      [
+        "solution",
+        "A structured home for shared contacts",
+        "The concept lets residents contribute service contacts to a community directory and find them by category. Recommender context and a way to report outdated information help users judge relevance. Listing and visibility should be opt-in."
+      ],
+      [
+        "tradeoffs",
+        "Trust is not a guarantee",
+        "Neighbour recommendations should not imply a safety guarantee. Consent, correction and removal need explicit design. Booking, payment and verification ideas require further validation before inclusion in an MVP."
+      ],
+      [
+        "measurement",
+        "Test usefulness before claiming impact",
+        "Proposed measures include time to retrieve a relevant contact, successful task completion and repeat use. Compare a directory prototype against chat search. No live adoption, revenue or delivery outcomes are claimed."
+      ],
+      [
+        "learning",
+        "Validate the smallest useful flow",
+        "Next, test adding and retrieving a contact with residents and group administrators. Evaluate whether users understand recommendation context, whether contacts stay current, and whether a directory is easier than existing alternatives."
+      ]
+    ],
+    "resources": [
+      {
+        "title": "WhatsApp User Interview",
+        "url": "https://drive.google.com/file/d/1K4SIn8MtC-0xESWvTPbTWvwQRArKOPie/view?usp=drivesdk",
+        "primary": true,
+        "type": "PDF"
+      },
+      {
+        "title": "WhatsApp User Survey",
+        "url": "https://drive.google.com/file/d/1F0_FDTuLJN215hbuTct4o2UIqE98kOWB/view?usp=drivesdk",
+        "primary": false,
+        "type": "PDF"
+      },
+      {
+        "title": "WhatsApp Market Research",
+        "url": "https://drive.google.com/file/d/1amd9gwpyglvLdTVvIWaYJom0u5O_6_ob/view?usp=drivesdk",
+        "primary": false,
+        "type": "PDF"
+      }
+    ],
+    "publicResources": [
+      {
+        "title": "WhatsApp User Interview",
+        "url": "https://drive.google.com/file/d/1K4SIn8MtC-0xESWvTPbTWvwQRArKOPie/view?usp=drivesdk",
+        "primary": true,
+        "type": "PDF"
+      },
+      {
+        "title": "WhatsApp User Survey",
+        "url": "https://drive.google.com/file/d/1F0_FDTuLJN215hbuTct4o2UIqE98kOWB/view?usp=drivesdk",
+        "primary": false,
+        "type": "PDF"
+      },
+      {
+        "title": "WhatsApp Market Research",
+        "url": "https://drive.google.com/file/d/1amd9gwpyglvLdTVvIWaYJom0u5O_6_ob/view?usp=drivesdk",
+        "primary": false,
+        "type": "PDF"
+      }
+    ],
+    "updated": "2026-10-19",
+    "image": "thumb-whatsapp-directory.webp",
+    "imageWidth": 1672,
+    "imageHeight": 941,
+    "caption": "WhatsApp Community Directory \u2014 project cover artwork"
   }
 ]
